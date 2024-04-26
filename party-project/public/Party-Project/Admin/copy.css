@@ -1,40 +1,41 @@
-
-/* --- Initializing Tailwind css in the project -- */
+/* 
+ --- Initializing Tailwind css in the project -- 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     background: #d3e5ed64;
 }
-/* -- Admin Header styles -- */
+
+ -- Admin Header styles -- 
 .admin--header {
     width: 250px;
     height: 100%;
     background: #042e42;
     position: fixed;
-    top: 3.5rem;
     padding: 20px;
     color: #fff;
-    border-top-right-radius: 8px;
 }
 
 .admin--header .sidenavs {
     padding: 5px;
 }
 
- .sidenavs ul {
+.sidenavs ul {
     list-style: none;
     padding: 10px;
     display: flex;
-    flex-direction: column;     
+    flex-direction: column;
 }
- .sidenavs ul li i{
+
+.sidenavs ul li i {
     padding: 0px 0 5px 0;
     margin-right: 10px;
     font-size: 22px;
 }
- .sidenavs ul li {
+
+.sidenavs ul li {
     padding: 15px;
     display: flex;
 }
@@ -44,12 +45,13 @@ body{
     border-radius: 2px;
     cursor: pointer;
 }
+
 .sidenavs ul li:active {
     transition: 0.3s;
     transform: scale(0.9);
 }
 
-/* -- Home contents styles -- */
+ -- Home contents styles -- 
 
 
 .admin-home .admin-home-contents {
@@ -65,7 +67,7 @@ body{
     border-radius: 3px;
     box-shadow: -1px 2px 10px 2px #00121b;
     position: relative;
-    top: 0;
+    top: 5px;
     right: 5px;
     display: flex;
     flex: 1;
@@ -79,8 +81,6 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
-    left: 50px;
 }
 
 .admin-home .admin-home-contents .admin-home-header .search-bar input {
@@ -117,7 +117,7 @@ body{
     border: 1px solid #005479;
     margin-left: 10px;
     border-radius: 50%;
-    color: #0f7797; 
+    color: #0f7797;
 }
 
 .admin-home-contents .admin-home-header .header-navs ul li:hover {
@@ -127,20 +127,22 @@ body{
     color: #fff;
 }
 
-.admin-home-contents .admin-home-header, .admin-view {
+.admin-home-contents .admin-home-header,
+.admin-view {
     width: 15%;
     height: 50px;
     background-color: #042e42;
     box-shadow: 1px 2px 10px 2px #00121b;
     border-radius: 3px;
     position: relative;
-    top: 0;
+    top: 5px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.admin-home-contents .admin-home-header .admin-view, .admin-profile {
+.admin-home-contents .admin-home-header .admin-view,
+.admin-profile {
     width: 35%;
     height: 100%;
     border: 1px solid #6994a9;
@@ -148,13 +150,13 @@ body{
     position: relative;
     left: 30px;
 }
+
 .admin-home-contents .admin-home-header .admin-view,
-button{
+button {
     display: flex;
     margin-left: 50px;
     margin-right: 20px;
     font-size: 22px;
 }
 
-/* -- Admin Home Content styles -- */
-
+ -- Admin Home Content styles -- */ 
